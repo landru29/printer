@@ -1,29 +1,30 @@
 \section{Conception}
 \subsection{Le chassis}
 Le chassis est en profile aluminum. Plusieurs solutions se sont %
-présentées :\begin{itemize}%
+présentées :\begin{dinglist}{71}%
 \item{utiliser du profile pour la construction modulaire}%
 \item{utiliser du profile carré}%
 \item{utiliser les profiles que propose une célèbre enseigne française %
 blanche et verte (fig. \ref{profile} page~\pageref{profile})}
-\end{itemize}%
-\begin{figure}
-   \caption{\label{profile} profile aluminium 23.5 x 23.5}
+\end{dinglist}%
+\par%
+\begin{figure}%
+   \caption{\label{profile} Profile aluminium 23.5 x 23.5}
    \center{\includegraphics[width=10cm]{img/profile.jpg}}
-\end{figure}
-La première solution est chère. Il faut compter 60\euro les trois mètres %
+\end{figure} %
+La première solution est chère. Il faut compter 60\euro{} les trois mètres %
 (30mm), sans compter la quincaillerie d'assemblage. \par%
 La seconde solution, la moins chère, est plus difficile à mettre en %
 oeuvre et nécessite de la précision dans les usinages (perçages, sciages, %
 ...) pour avoir de bons alignements.%
 La dernière solution est un bon compromis, car c'est une solution de %
-construction modulaire à petit prix (15\euro les 2,5m x 25mm). Les jonctions %
+construction modulaire à petit prix (15\euro{} les 2,5m x 25mm). Les jonctions %
 se font avec des L et des T en PVC. Si ce n'est pas assez rigide, je %
 pourrais encore ajouter des équerres métaliques.
 \subsection{L'électronique}
 \subsubsection{Spécification}
 L'électronique de commande doit respecter les spécifications suivantes: %
-\begin{itemize}%
+\begin{dinglist}{71}%
 \item{Elle devra piloter 5 axes (1 X-axis, 1 Y-axis, 2 Z-axis, 1 extrudeur)} %
 \item{Elle se connectera à un ordinateur via le port USB} %
 \item{Elle supportera une carte SD pour l'imprimante soit autonaume lors de %
@@ -33,7 +34,7 @@ l'impression} %
 l'extrudeur)}
 \item{Elle saura piloter le partie chauffante de l'extrudeur} %
 \item{Elle ne sera pas propriétaire} %
-\end{itemize} %
+\end{dinglist} %
 \subsubsection{La Smoothieboard}
 Toujours, pour des questions de budget, j'ai écarté la solution Smoothie %
 (http://smoothieware.org/smoothieboard). Il faut compter 125\euro{} pour une %
@@ -41,12 +42,12 @@ carte 5 axes.
 \subsection{Arduino}
 La solution Arduino consiste à utiliser la version Mega et y brancher une carte %
 de commande de moteur. Je suis donc parti sur la configuration suivante: %
-\begin{itemize}%
+\begin{dinglist}{71}%
 \item{Freeduino 2650 Mega (un clone de l'Arduino, mais en moins cher): 19\euro}%
 \item{RAMPS (une carte de commande de moteur; la plus utilisée par les firmwares %
 proposés): 14\euro}%
 \item{5 modules A4988 (commande de moteur pas à pas): 5\euro{} chacun}
-\end{itemize}%
+\end{dinglist}%
 %
 \subsection{Liste du matériel}
 \csvreader[tabular=|l|l|l|r|,
@@ -56,19 +57,29 @@ proposés): 14\euro}%
 {\thecsvrow & \Description & \Qte & \Prix}%
 %
 \subsection{la tête d'impression}
+Fig. \ref{sch_tete} page~\pageref{sch_tete} \par %
+\begin{figure}%
+   \caption{\label{sch_tete} Dessin de la tête d'impression}%
+   \center{\includegraphics[width=5cm]{img/head_sch.jpg}}%
+\end{figure}%
 La tête d'impression est entièrement fabriquée (fig. \ref{tete_impression} %
 page~\pageref{tete_impression}). Elle se compose de quatre éléments:%
-\begin{itemize}%
+\begin{dinglist}{71}%
 \item{l'élément de chauffe (qui contiendra la résistance chauffante et la thermistance)}%
 \item{le radiateur (qui refroidit la partie haute)}%
 \item{le noyau (pour solidariser le radiateur et l'élément de chauffe)}%
 \item{la buse (qui est une partie métalique percée à 0,2mm)}%
-\end{itemize}%
+\end{dinglist}%
 \begin{figure}%
    \caption{\label{tete_impression} Tête d'impression}%
    \center{\includegraphics[width=10cm]{img/tete01.jpg}}%
 \end{figure}%
 \subsubsection{L'élément de chauffe}%
+Fig. \ref{sch_chauffe} page~\pageref{sch_chauffe} \par %
+\begin{figure}%
+   \caption{\label{sch_chauffe} Dessin de l'élément de chauffage}%
+   \center{\includegraphics[width=5cm]{img/heater_sch.jpg}}%
+\end{figure}%
 La conception est assez simple. Il faut un bloc de métail (dans mon cas de l'aluminium), et%
 percer un logement pour la résistance chauffante et un logement pour la thermistance.%
 Pour des facilité d'usinage, je suis parti d'un rond d'aluminium que j'ai fraisé %
@@ -77,19 +88,25 @@ Pour des facilité d'usinage, je suis parti d'un rond d'aluminium que j'ai frais
    \caption{\label{usinage_chauffe} Usinage de l'élément de chauffage}%
    \center{\includegraphics[width=10cm]{img/chauffe01.jpg}}%
 \end{figure}%
-\begin{figure}%
-   \caption{\label{sch_chauffe} Dessin de l'élément de chauffage}%
-   \center{\includegraphics[width=10cm]{img/heater_sch.jpg}}%
-\end{figure}%
 \subsubsection{Le radiateur}%
+Fig. \ref{sch_radiateur} page~\pageref{sch_radiateur} \par %
+\begin{figure}%
+   \caption{\label{sch_radiateur} Dessin du radiateur}%
+   \center{\includegraphics[width=5cm]{img/cooler_sch.jpg}}%
+\end{figure}%
 Cette pièce est aussi en aluminium. Avec un tour j'ai usiné des gorges pour faire les ailettes.%
 Le perçage central est taraudé à M8 pour y visser le noyau (fig. \ref{usinage_radiateur} %
 page~\pageref{usinage_radiateur}).%
 \begin{figure}%
    \caption{\label{usinage_radiateur} Usinage du radiateur}%
-   \center{\includegraphics[width=10cm]{img/radiateur01.jpg}}%
+   \center{\includegraphics[height=8cm]{img/radiateur01.jpg}}%
 \end{figure}%
 \subsubsection{Le noyau}%
+Fig. \ref{sch_noyau} page~\pageref{sch_noyau} \par %
+\begin{figure}%
+   \caption{\label{sch_noyau} Dessin du noyau}%
+   \center{\includegraphics[width=2cm]{img/core_sch.jpg}}%
+\end{figure}%
 Le noyau des fabriqué à partir d'une tige fileté M8 en laiton. Cette pièce est percée à 3,2mm %
 pour laisser passer le fil de plastique jsqu'à l'élément de chauffe.%
 \subsubsection{La buse}%
@@ -100,9 +117,9 @@ diamètres sont chers et très fragiles (il faut faire des passes de 0,1mm).%
 Je me suis rapidement orienté vers les injecteur de cyclomoteurs ou de gaz. Les injecteurs de %
 cyclomoteurs sont percés gros (minimum 0,6mm). Reste les injecteurs gaz. Chez un chauffagiste %
 rennais (\url{http://www.jeanpaulguy.fr/contents/fr/p5656_SD_05447200.html}) j'ai trouvé un injecteur de veilleuse de chaudière murale à gaz (fig. \ref{buse} %
-page~\pageref{buse}). C'est une petite pièce à moins de 2\euro, percée à 0,28mm ou 0,18mm (%
+page~\pageref{buse}). C'est une petite pièce à moins de 2\euro{}, percée à 0,28mm ou 0,18mm (%
 \url{http://www.jeanpaulguy.fr/contents/fr/p2629.html}).%
 \begin{figure}%
    \caption{\label{buse} Buse d'extrusion}%
-   \center{\includegraphics[width=10cm]{img/buse.jpg}}%
+   \center{\includegraphics[width=5cm]{img/buse.jpg}}%
 \end{figure}%
