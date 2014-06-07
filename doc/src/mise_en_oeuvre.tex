@@ -1,12 +1,12 @@
 \section{Mise en oeuvre}%
 \subsection{L'électronique}%
 \subsubsection{Un jeu de LEGO}
-Le montages est relativement simple; la carte RAMPS s'enffiche bien sur la Funduino. %
+Le montage est relativement simple; la carte RAMPS s'enffiche bien sur la Funduino. %
 Il ne faut pas  assembler tout de suite les cartes. Il est préférable de fixer la %
 funduino sur son support final (dans mon cas, une tole aluminum en équerre). une fois %
 le Funduino fixée, on enffiche  la RAMPS (fig. \ref{montage_carte} %
 page~\pageref{montage_carte}). il reste à brancher les commandes de moteur %
-sur la RAMPS. Comme indiqué sur le wiki de Reprap, on vérifie les nom des broches et %
+sur la RAMPS. Comme indiqué sur le wiki de Reprap, on vérifie les noms des broches et %
 on branche (le GND va sur le GND et le direction va sur direction).%
 \begin{figure}%
    \caption{\label{montage_carte} Montage de RAMPS sur la Funduino}%
@@ -27,9 +27,10 @@ page~\pageref{alimentation}).%
 \end{figure}%
 \subsubsection{Les premières embuches}
 Ce qui devait arriver arriva. En faisant des essais sur la carte RAMPS, j'ai fait un %
-court-circuit. Une seconde a suffit pour que de la fumée s'échappe de la Funduino. Une %
+court-circuit (5v relié au 0V). Une seconde a suffit pour que de la fumée s'échappe %
+de la Funduino. Une %
 fois l'ensemble démonté, un composant avait pris copieux. \par %
-Diagnostique : quand je branche seule, le Funduino au PC avec le cordon USB, le %
+Diagnostique : quand je branche seul, le Funduino au PC avec le cordon USB, le %
 périphérique est reconnu. Si maintenant, j'alimente la RAMPS en 12V, le PC perd la %
 connection USB. C'est embêtant. Dans ces cas là, il faut garder son calme. La %
 Funduino, tout comme l'Arduino est une carte super simple : il y a un micro controlleur, %
@@ -43,9 +44,9 @@ ressemble à une quatrième patte (fig. \ref{regulator} page~\pageref{regulator}
    \center{\includegraphics[width=10cm]{img/regulator.jpg}}%
 \end{figure}%
 En regardant bien, c'est ce composant qui a chargé. %
-La réparation est simple : le LM7805 rempli la même fonction. Il est carément plus gros, %
+La réparation est simple : le LM7805 rempli la même fonction. Il est carrément plus gros, %
 mais, on va trouver à le loger. J'en ai un sous le coude, c'est parti. Il faut être %
-vigilent sur l'ordre des pattes. Pour s'adapter sur le circuit, il faut croiser le OUT %
+vigilent sur l'ordre des pattes. Pour s'adapter au circuit, il faut croiser le OUT %
 et le GND pour avoir dans l'ordre [IN OUT GND] (fig. \ref{regulator} page~\pageref{regulator}). Ensuite on soude (fig. \ref{funduino_repared} %
 page~\pageref{funduino_repared}). J'ai pris soin de mettre un scotch sur le radiateur du %
 LM7805 pour éviter que la partie métallique ne touche une autre partie de la Funduino.\par{} %

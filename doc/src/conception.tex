@@ -16,7 +16,7 @@ La première solution est chère. Il faut compter 60\euro{} les trois mètres %
 (30mm), sans compter la quincaillerie d'assemblage. \par%
 La seconde solution, la moins chère, est plus difficile à mettre en %
 oeuvre et nécessite de la précision dans les usinages (perçages, sciages, %
-...) pour avoir de bons alignements.%
+...) pour avoir de bons alignements.\par%
 La dernière solution est un bon compromis, car c'est une solution de %
 construction modulaire à petit prix (15\euro{} les 2,5m x 25mm). Les jonctions %
 se font avec des L et des T en PVC. Si ce n'est pas assez rigide, je %
@@ -27,10 +27,10 @@ L'électronique de commande doit respecter les spécifications suivantes: %
 \begin{dinglist}{71}%
 \item{Elle devra piloter 5 axes (1 X-axis, 1 Y-axis, 2 Z-axis, 1 extrudeur)} %
 \item{Elle se connectera à un ordinateur via le port USB} %
-\item{Elle supportera une carte SD pour l'imprimante soit autonaume lors de %
+\item{Elle supportera une carte SD pour l'imprimante soit autonome lors de %
 l'impression} %
 \item{Elle saura piloter des moteurs pas à pas bipolaires}
-\item{Elle intégrera les différents capteurs (fin de course, températere de %
+\item{Elle intégrera les différents capteurs (fin de course, température de %
 l'extrudeur)}
 \item{Elle saura piloter le partie chauffante de l'extrudeur} %
 \item{Elle ne sera pas propriétaire} %
@@ -39,14 +39,14 @@ l'extrudeur)}
 Toujours, pour des questions de budget, j'ai écarté la solution Smoothie %
 (http://smoothieware.org/smoothieboard). Il faut compter 125\euro{} pour une %
 carte 5 axes.
-\subsection{Arduino}
+\subsubsection{Arduino}
 La solution Arduino consiste à utiliser la version Mega et y brancher une carte %
 de commande de moteur. Je suis donc parti sur la configuration suivante: %
 \begin{dinglist}{71}%
 \item{Freeduino 2650 Mega (un clone de l'Arduino, mais en moins cher): 19\euro}%
 \item{RAMPS (une carte de commande de moteur; la plus utilisée par les firmwares %
 proposés): 14\euro}%
-\item{5 modules A4988 (commande de moteur pas à pas): 5\euro{} chacun}
+\item{5 modules A4988 (commande de moteur pas à pas) avec radiateur: 5\euro{} chacun}
 \end{dinglist}%
 %
 \subsection{Liste du matériel}
@@ -57,7 +57,7 @@ proposés): 14\euro}%
 {\thecsvrow & \Description & \Qte & \Prix}%
 %
 \subsection{la tête d'impression}
-Fig. \ref{sch_tete} page~\pageref{sch_tete} \par %
+\noindent Fig. \ref{sch_tete} page~\pageref{sch_tete} \par %
 \begin{figure}%
    \caption{\label{sch_tete} Dessin de la tête d'impression}%
    \center{\includegraphics[width=5cm]{img/head_sch.jpg}}%
@@ -75,26 +75,26 @@ page~\pageref{tete_impression}). Elle se compose de quatre éléments:%
    \center{\includegraphics[width=10cm]{img/tete01.jpg}}%
 \end{figure}%
 \subsubsection{L'élément de chauffe}%
-Fig. \ref{sch_chauffe} page~\pageref{sch_chauffe} \par %
+\noindent Fig. \ref{sch_chauffe} page~\pageref{sch_chauffe} \par %
 \begin{figure}%
    \caption{\label{sch_chauffe} Dessin de l'élément de chauffage}%
    \center{\includegraphics[width=5cm]{img/heater_sch.jpg}}%
 \end{figure}%
-La conception est assez simple. Il faut un bloc de métail (dans mon cas de l'aluminium), et%
+La conception est assez simple. Il faut un bloc de métail (dans mon cas de l'aluminium), et %
 percer un logement pour la résistance chauffante et un logement pour la thermistance.%
-Pour des facilité d'usinage, je suis parti d'un rond d'aluminium que j'ai fraisé %
+Pour des facilités d'usinage, je suis parti d'un rond d'aluminium que j'ai fraisé %
 (fig. \ref{usinage_chauffe} page~\pageref{usinage_chauffe}).%
 \begin{figure}%
    \caption{\label{usinage_chauffe} Usinage de l'élément de chauffage}%
    \center{\includegraphics[width=10cm]{img/chauffe01.jpg}}%
 \end{figure}%
 \subsubsection{Le radiateur}%
-Fig. \ref{sch_radiateur} page~\pageref{sch_radiateur} \par %
+\noindent Fig. \ref{sch_radiateur} page~\pageref{sch_radiateur} \par %
 \begin{figure}%
    \caption{\label{sch_radiateur} Dessin du radiateur}%
    \center{\includegraphics[width=5cm]{img/cooler_sch.jpg}}%
 \end{figure}%
-Cette pièce est aussi en aluminium. Avec un tour j'ai usiné des gorges pour faire les ailettes.%
+Cette pièce est aussi en aluminium. Avec un tour j'ai usiné des gorges pour faire les ailettes. %
 Le perçage central est taraudé à M8 pour y visser le noyau (fig. \ref{usinage_radiateur} %
 page~\pageref{usinage_radiateur}).%
 \begin{figure}%
@@ -102,19 +102,19 @@ page~\pageref{usinage_radiateur}).%
    \center{\includegraphics[height=8cm]{img/radiateur01.jpg}}%
 \end{figure}%
 \subsubsection{Le noyau}%
-Fig. \ref{sch_noyau} page~\pageref{sch_noyau} \par %
+\noindent Fig. \ref{sch_noyau} page~\pageref{sch_noyau} \par %
 \begin{figure}%
    \caption{\label{sch_noyau} Dessin du noyau}%
    \center{\includegraphics[width=2cm]{img/core_sch.jpg}}%
 \end{figure}%
-Le noyau des fabriqué à partir d'une tige fileté M8 en laiton. Cette pièce est percée à 3,2mm %
-pour laisser passer le fil de plastique jsqu'à l'élément de chauffe.%
+Le noyau est fabriqué à partir d'une tige fileté M8 en laiton. Cette pièce est percée à 3,2mm %
+pour laisser passer le fil de plastique jusqu'à l'élément de chauffe.%
 \subsubsection{La buse}%
 Le choix de la buse a été assez difficile. La problématique est la suivante : où trouver %
-une partie métallique percée à 0,3mm ou moins pour pas cher ? \par%
+une partie métallique percée à 0,3mm ou moins, pour pas cher ? \par%
 Après renseignement, j'ai vite abandonné l'idée de percer moi-même. Les forêts de très petits %
-diamètres sont chers et très fragiles (il faut faire des passes de 0,1mm).%
-Je me suis rapidement orienté vers les injecteur de cyclomoteurs ou de gaz. Les injecteurs de %
+diamètres sont chers et très fragiles (il faut faire des passes de 0,1mm). %
+Je me suis rapidement orienté vers les injecteurs de cyclomoteurs ou de gaz. Les injecteurs de %
 cyclomoteurs sont percés gros (minimum 0,6mm). Reste les injecteurs gaz. Chez un chauffagiste %
 rennais (\url{http://www.jeanpaulguy.fr/contents/fr/p5656_SD_05447200.html}) j'ai trouvé un injecteur de veilleuse de chaudière murale à gaz (fig. \ref{buse} %
 page~\pageref{buse}). C'est une petite pièce à moins de 2\euro{}, percée à 0,28mm ou 0,18mm (%
