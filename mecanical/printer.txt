@@ -1,0 +1,105 @@
+txt format Save for document C:\Users\Cyrille\Documents\GitHub\printer\mecanical\printer.CATProduct 
+--------------------------------------------------------------------------------------------------- 
+ 
+ 
+RootProduct : Produit1 
+  | 
+  |- Product : Body (Body.1) 
+        | 
+        |- Product : L (L.1) 
+        | 
+        |- Product : L (L.2) 
+        | 
+        |- Product : L (L.3) 
+        | 
+        |- Product : L (L.4) 
+        | 
+        |- Product : profile 100 (profile 100.1) 
+        | 
+        |- Product : profile 100 (profile 100.2) 
+        | 
+        |- Product : T (T.1) 
+        | 
+        |- Product : T (T.2) 
+        | 
+        |- Product : profile 300 (profile 300.1) 
+        | 
+        |- Product : profile 300 (profile 300.2) 
+        | 
+        |- Product : profile 400 Z (profile 400 Z.1) 
+        | 
+        |- Product : profile 400 Z (profile 400 Z.2) 
+        | 
+        |- Product : profile 400 (profile 400.1) 
+        | 
+        |- Product : profile 400 (profile 400.2) 
+        | 
+        |- Product : profile 400 (profile 400.3) 
+        | 
+        |- Product : L (L.5) 
+        | 
+        |- Product : L (L.6) 
+  | 
+  |- Product : z_motor_left (z_motor_left.1) 
+        | 
+        |- Product : Motor-Support-bottom-left (Motor-Support-bottom-left.1) 
+        | 
+        |- Product : Motor (Motor.1) 
+        | 
+        |- Product : coupling (coupling.1) 
+        | 
+        |- Product : stub_Z (stub_Z.1) 
+        | 
+        |- Product : vis (vis.1) 
+        | 
+        |- Product : Z-Axis-Top-Left (Z-Axis-Top-Left.1) 
+  | 
+  |- Product : z_motor_right (z_motor_right.1) 
+        | 
+        |- Product : vis (vis.1) 
+        | 
+        |- Product : Motor_Support_bottom_right (Motor_Support_bottom_right.1) 
+        | 
+        |- Product : Motor (Motor.1) 
+        | 
+        |- Product : coupling (coupling.1) 
+        | 
+        |- Product : stub_Z (stub_Z.1) 
+        | 
+        |- Product : Z-Axis-Top-Right (Z-Axis-Top-Right.1) 
+  | 
+  |- Product : z_carriage (z_carriage.1) 
+        | 
+        |- Product : Nut8 (Nut8.1) 
+        | 
+        |- Product : Nut8 (Nut8.2) 
+        | 
+        |- Product : Z_carriage_left (Z_carriage_left.1) 
+        | 
+        |- Product : Bushing (Bushing.1) 
+        | 
+        |- Product : Bushing (Bushing.2) 
+        | 
+        |- Product : Stub_Y (Stub_Y.1) 
+        | 
+        |- Product : Stub_Y (Stub_Y.2) 
+  | 
+  |- Product : y_carriage (y_carriage.1) 
+        | 
+        |- Product : stub X (stub X.1) 
+        | 
+        |- Product : stub X (stub X.2) 
+        | 
+        |- Product : Bushing (Bushing.1) 
+        | 
+        |- Product : Bushing (Bushing.2) 
+        | 
+        |- Product : Bushing (Bushing.3) 
+        | 
+        |- Product : support stub (support stub.1) 
+        | 
+        |- Product : support stub (support stub.2) 
+        | 
+        |- Product : support stub (support stub.3) 
+        | 
+        |- Product : support stub (support stub.4) 

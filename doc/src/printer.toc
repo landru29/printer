@@ -1,0 +1,22 @@
+\select@language {french}
+\contentsline {section}{\numberline {1}Pr\IeC {\'e}sentation}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Cadre du projet}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Objectif}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Les imprimantes RepRap}{3}{subsection.1.3}
+\contentsline {section}{\numberline {2}Conception}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Le chassis}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}L'\IeC {\'e}lectronique}{4}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Sp\IeC {\'e}cification}{4}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}La Smoothieboard}{5}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Arduino}{5}{subsubsection.2.2.3}
+\contentsline {subsection}{\numberline {2.3}Liste du mat\IeC {\'e}riel}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}la t\IeC {\^e}te d'impression}{6}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}L'\IeC {\'e}l\IeC {\'e}ment de chauffe}{6}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Le radiateur}{6}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Le noyau}{9}{subsubsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.4}La buse}{9}{subsubsection.2.4.4}
+\contentsline {section}{\numberline {3}Mise en oeuvre}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}L'\IeC {\'e}lectronique}{10}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Un jeu de LEGO}{10}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Alimentation externe}{10}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Les premi\IeC {\`e}res embuches}{12}{subsubsection.3.1.3}
