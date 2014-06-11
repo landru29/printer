@@ -1,0 +1,22 @@
+PartNumber	d (mm)	D (mm)	B (mm)
+bearing10 8	8	22	7
+bearing10 9	9	24	7
+bearing10 10	10	26	8
+bearing10 12	12	28	8
+bearing10 15	15	32	9
+bearing10 17	17	35	10
+bearing10 20	20	42	12
+bearing10 25	25	47	12
+bearing10 30	30	55	13
+bearing02 3	3	10	4
+bearing02 4	4	13	5
+bearing02 5	5	16	5
+bearing02 6	6	19	6
+bearing02 9	9	26	8
+bearing02 10	10	30	9
+bearing02 12	12	32	10
+bearing02 15	15	35	11
+bearing02 17	17	40	12
+bearing02 20	20	47	14
+bearing02 25	25	52	15
+bearing02 30	30	62	16
