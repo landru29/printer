@@ -103,3 +103,39 @@ RootProduct : Produit1
         |- Product : support stub (support stub.3) 
         | 
         |- Product : support stub (support stub.4) 
+  | 
+  |- Product : X_Carriage (X_Carriage.1) 
+        | 
+        |- Product : X_carriage (X_carriage.1) 
+        | 
+        |- Product : Bushing (Bushing.1) 
+        | 
+        |- Product : Bushing (Bushing.2) 
+        | 
+        |- Product : Bushing (Bushing.3) 
+        | 
+        |- Product : Bushing (Bushing.4) 
+  | 
+  |- Product : Extruder (Extruder.1) 
+        | 
+        |- Product : Small_gear (Small_gear.1) 
+        | 
+        |- Product : Big_gear (Big_gear.1) 
+        | 
+        |- Product : Motor (Motor.1) 
+        | 
+        |- Product : extruder_bracket (extruder_bracket.1) 
+        | 
+        |- Product : bearing10 8 (bearing10 8.1) 
+        | 
+        |- Product : bearing10 8 (bearing10 8.2) 
+        | 
+        |- Product : tete (tete.1) 
+              | 
+              |- Product : core (core.1) 
+              | 
+              |- Product : printing nozzle (printing nozzle.1) 
+              | 
+              |- Product : heater (heater.1) 
+              | 
+              |- Product : radiateur (radiateur.1) 

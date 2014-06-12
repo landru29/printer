@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.22)  9 JUN 2014 00:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.22)  12 JUN 2014 20:13
 entering extended mode
 **printer.tex
 (C:\Users\Cyrille\Documents\GitHub\printer\doc\src\printer.tex
@@ -536,11 +536,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 33.
 
-<img/frame.jpg, id=87, 499.11469pt x 505.13719pt>
+<img/frame.jpg, id=87, 656.4525pt x 676.5275pt>
 File: img/frame.jpg Graphic file (type jpg)
  <use img/frame.jpg>
 Package pdftex.def Info: img/frame.jpg used on input line 33.
-(pdftex.def)             Requested size: 284.52756pt x 287.96973pt.
+(pdftex.def)             Requested size: 284.52756pt x 293.23413pt.
  [1
 
 {C:/Users/Cyrille/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/
@@ -649,14 +649,21 @@ File: img/regulator.jpg Graphic file (type jpg)
 Package pdftex.def Info: img/regulator.jpg used on input line 44.
 (pdftex.def)             Requested size: 284.52756pt x 109.43951pt.
 
-<img/funduino02.jpg, id=223, 803.0pt x 602.25pt>
+<img/arduino_principle.jpg, id=219, 580.1675pt x 351.3125pt>
+File: img/arduino_principle.jpg Graphic file (type jpg)
+
+<use img/arduino_principle.jpg>
+Package pdftex.def Info: img/arduino_principle.jpg used on input line 48.
+(pdftex.def)             Requested size: 284.52756pt x 172.28935pt.
+ [12 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/regulator.jpg> <C:/
+Users/Cyrille/Documents/GitHub/printer/doc/src/img/arduino_principle.jpg>] <img
+/funduino02.jpg, id=232, 803.0pt x 602.25pt>
 File: img/funduino02.jpg Graphic file (type jpg)
- <use img/funduino02.jpg>
-Package pdftex.def Info: img/funduino02.jpg used on input line 59.
+
+<use img/funduino02.jpg>
+Package pdftex.def Info: img/funduino02.jpg used on input line 66.
 (pdftex.def)             Requested size: 284.52756pt x 213.4005pt.
-)
-[12 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/regulator.jpg>]
-[13 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/funduino02.jpg>]
+) [13 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/funduino02.jpg>]
 (C:\Users\Cyrille\Documents\GitHub\printer\doc\src\printer.lof)
 \tf@lof=\write5
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
@@ -673,10 +680,10 @@ Package rerunfilecheck Info: File `printer.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 7078 strings out of 493921
- 110198 string characters out of 3147276
- 194852 words of memory out of 3000000
- 10199 multiletter control sequences out of 15000+200000
+ 7085 strings out of 493921
+ 110366 string characters out of 3147276
+ 194900 words of memory out of 3000000
+ 10204 multiletter control sequences out of 15000+200000
  14484 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  40i,6n,40p,295b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -691,9 +698,9 @@ Users\Cyrille\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1
 440.pk> <C:\Users\Cyrille\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
 dpi600\ecrm2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feym
 r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on printer.pdf (14 pages, 6515551 bytes).
+Output written on printer.pdf (14 pages, 6551992 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 239 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 550 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 244 words of extra memory for PDF output out of 10000 (max. 10000000)
 
