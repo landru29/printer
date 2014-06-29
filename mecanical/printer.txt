@@ -14,9 +14,9 @@ RootProduct : Produit1
         | 
         |- Product : L (L.4) 
         | 
-        |- Product : profile 100 (profile 100.1) 
+        |- Product : profile 150 (profile 150.1) 
         | 
-        |- Product : profile 100 (profile 100.2) 
+        |- Product : profile 150 (profile 150.2) 
         | 
         |- Product : T (T.1) 
         | 
@@ -83,6 +83,20 @@ RootProduct : Produit1
         |- Product : Stub_Y (Stub_Y.1) 
         | 
         |- Product : Stub_Y (Stub_Y.2) 
+        | 
+        |- Product : Z_carriage_right (Z_carriage_right.1) 
+        | 
+        |- Product : Bushing (Bushing.3) 
+        | 
+        |- Product : Bushing (Bushing.4) 
+        | 
+        |- Product : Nut8 (Nut8.3) 
+        | 
+        |- Product : Nut8 (Nut8.4) 
+        | 
+        |- Product : Motor (Motor.1) 
+        | 
+        |- Product : bearing10 8 (bearing10 8.1) 
   | 
   |- Product : y_carriage (y_carriage.1) 
         | 
@@ -103,6 +117,12 @@ RootProduct : Produit1
         |- Product : support stub (support stub.3) 
         | 
         |- Product : support stub (support stub.4) 
+        | 
+        |- Product : triangle (triangle.1) 
+        | 
+        |- Product : Y-idler (Y-idler.1) 
+        | 
+        |- Product : bearing10 8 (bearing10 8.1) 
   | 
   |- Product : X_Carriage (X_Carriage.1) 
         | 
@@ -115,6 +135,8 @@ RootProduct : Produit1
         |- Product : Bushing (Bushing.3) 
         | 
         |- Product : Bushing (Bushing.4) 
+        | 
+        |- Product : X_carriage_cover (X_carriage_cover.1) 
   | 
   |- Product : Extruder (Extruder.1) 
         | 
@@ -139,3 +161,19 @@ RootProduct : Produit1
               |- Product : heater (heater.1) 
               | 
               |- Product : radiateur (radiateur.1) 
+              | 
+              |- Product : core_stainless (core_stainless.1) 
+        | 
+        |- Product : screw8_60 (screw8_60.1) 
+        | 
+        |- Product : Nut8 (Nut8.1) 
+        | 
+        |- Product : Nut8 (Nut8.2) 
+        | 
+        |- Product : Nut8 (Nut8.3) 
+        | 
+        |- Product : extruder_idler (extruder_idler.1) 
+        | 
+        |- Product : bearing10 8 (bearing10 8.3) 
+        | 
+        |- Product : idler_core (idler_core.1) 
