@@ -1,3 +1,5 @@
+![Imprimante 3D](https://raw.githubusercontent.com/landru29/printer/master/doc/src/img/printer.jpg)
+
 Cadre du projet
 ===============
 Une imprimante 3D est une machine qui permet de reproduire des pièces plus ou moins complexes par apport de matière. Il existe plusieurs types d'imprimantes, selon le principe d'apport de matière utilisé. Le prérimètre de ce projet est une imprimante qui extrude du plastique à déposer couches par couches.
