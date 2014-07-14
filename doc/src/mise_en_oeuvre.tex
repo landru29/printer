@@ -65,3 +65,98 @@ rien à chaud !).%
    \caption{\label{funduino_repared} Funduino avec son nouveau régulateur de tension}%
    \center{\includegraphics[width=10cm]{img/funduino02.jpg}}%
 \end{figure}%
+\subsection{Réglage des controlleurs de moteurs}
+\subsubsection{Principe du réglage}
+Vous avez dû remarquer que sur chaque contrôleur A4988, il y a un potentiomètre. Il sert %
+à quelque chose. En fait, le composant A4988 est pourvu d'un régulateur de courant. \c{C}a tombe %
+bien, les moteurs que j'ai achetés (42BYGHW609) ont un ampérage maximum de 1,7A. Nous allons %
+donc agir sur ce potentiomètre pour que l'intensité de sortie ne dépasse pas 1,7A.
+\subsubsection{Câblage du module}
+Nous allons faire un petit banc de test pour régler nos modules (fig. \ref{a4988_wired} %
+page~\pageref{a4988_wired}). Procédez ainsi:\begin{dinglist}{71}%
+\item{Branchez GND sur le 0V de l'Arduino}%
+\item{Branchez VDD sur le 5V de l'Arduino}%
+\item{Branchez /RESET et /SLEEP sur 5V}
+\item{Branchez /ENABLE sur la pin 13 de l'Arduino}
+\item{Branchez STEP sur la pin 12 de l'Arduino}
+\item{Branchez DIR sur la pin 11 de l'Arduino}
+\item{Branchez VMOT sur le 12V de l'alimentation externe (alimentation d'ordinateur)}
+\item{Branchez un bobinage moteur sur 1A, 1B}
+\item{Branchez l'autre bobinage moteur sur 2A, 2B}
+\end{dinglist}%
+Pour trouver un bobinage moteur, sans alimentation, reliez deux broches du moteur et tounez l'axe %
+à la main; s'il y a une petite résistance à la rotation, c'est que vous avez courcircuité un bobinage %
+(c'est dû aux courants de Foucault). Sinon, testez une autre paire%
+\begin{figure}%
+   \caption{\label{a4988_wired} câblage du A4988}%
+   \center{\includegraphics[width=10cm]{img/a4988_1.jpg}}%
+\end{figure}%
+\subsubsection{Le test}
+Insésez un ampèremètre dans le circuit d'un bobinage (l'ampèremètre se branche en série), et chargez %
+le programme suivant dans l'arduino:
+\begin{verbatim}
+/*
+Test moteur PAP (pas entier)
+Carte Pololu avec puce A4988 + régulateur de tension > 
+http://www.pololu.com/catalog/product/1183
+Ch.Aubert Déc.2011
+*/
+
+/************** Définition des E/S *************************/
+const int dirPin = 11;  // DIR
+const int stepPin = 12; // STEP
+const int enablePin = 13; // ENABLE
+
+void setup()
+{
+  pinMode(stepPin, OUTPUT); // Dir et Step en sortie
+  pinMode(dirPin, OUTPUT);
+  pinMode(enablePin, OUTPUT); // broche Enable en sortie
+  digitalWrite(enablePin, HIGH);
+
+  calibrate(); // lance le stall moteur Ampérage max !
+  //test(); // lance le test !!
+}
+
+void loop()
+{
+  // rien pour l'instant !
+}
+
+void calibrate() // Stall moteur Ampérage max !
+{
+  digitalWrite(enablePin, LOW);
+}
+
+void test() //  faire tourner le moteur 200 pas
+{
+  int j;
+  digitalWrite(enablePin, LOW);
+  delayMicroseconds(2);
+
+  digitalWrite(dirPin, HIGH);
+  for(j=0; j<=199; j++) {
+    delay(200);
+    digitalWrite(stepPin, LOW);
+    delayMicroseconds(10);
+    digitalWrite(stepPin, HIGH);
+    delayMicroseconds(1000);
+  }
+  digitalWrite(enablePin, HIGH); 
+}
+\end{verbatim}
+\begin{figure}%
+   \caption{\label{a4988_montage} câblage du A4988}%
+   \center{\includegraphics[width=10cm]{img/montage_a4988.jpg}}%
+\end{figure}%
+\begin{figure}%
+   \caption{\label{a4988_ampere} câblage du A4988}%
+   \center{\includegraphics[width=5cm]{img/amperemetre.jpg}}%
+\end{figure}%
+Alimentez l'arduino (par le cable USB), et branchez l'alimentation. Attention, on ne décâble jamais %
+le moteur lorsque les alimentations (arduino et alim externe de 12V) sont en marche. Par l'effet de %
+courants induits, un retour de courant pourrait détruire votre contrôleur. Normalement, le moteur %
+ne tourne pas, mais l'axe est rigide. \\%
+N'utilisez pas de tournevis à manche métalique; j'ai remarqué que les mesures sont faussées. Tournez le %
+potentiomètre pour ne pas dépasser 0,7 courant max (1,2A pour ma part). J'ai fait le choix de brider %
+à 0,8A (fig. \ref{a4988_ampere} page~\pageref{a4988_ampere}). %
