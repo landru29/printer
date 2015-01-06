@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.22)  5 JAN 2015 22:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.22)  6 JAN 2015 19:04
 entering extended mode
 **printer.tex
 (C:\Users\Cyrille\Documents\GitHub\printer\doc\src\printer.tex
@@ -536,7 +536,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 33.
 
-<img/printer.jpg, id=103, 569.12625pt x 496.10344pt>
+<img/printer.jpg, id=123, 569.12625pt x 496.10344pt>
 File: img/printer.jpg Graphic file (type jpg)
  <use img/printer.jpg>
 Package pdftex.def Info: img/printer.jpg used on input line 33.
@@ -565,7 +565,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 12.
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
 (C:\Users\Cyrille\Documents\GitHub\printer\doc\src\conception.tex
-<img/profile.jpg, id=147, 803.0pt x 648.4225pt>
+<img/profile.jpg, id=172, 803.0pt x 648.4225pt>
 File: img/profile.jpg Graphic file (type jpg)
  <use img/profile.jpg>
 Package pdftex.def Info: img/profile.jpg used on input line 13.
@@ -574,123 +574,159 @@ Package pdftex.def Info: img/profile.jpg used on input line 13.
 
 ]
 [4 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/profile.jpg>]
-<img/head_sch.jpg, id=165, 294.09875pt x 409.53pt>
+<img/head_sch.jpg, id=190, 294.09875pt x 409.53pt>
 File: img/head_sch.jpg Graphic file (type jpg)
  <use img/head_sch.jpg>
 Package pdftex.def Info: img/head_sch.jpg used on input line 63.
 (pdftex.def)             Requested size: 142.26378pt x 198.10315pt.
 
-[5] <img/tete01.jpg, id=172, 4015.0pt x 3011.25pt>
+[5] <img/tete01.jpg, id=197, 4015.0pt x 3011.25pt>
 File: img/tete01.jpg Graphic file (type jpg)
  <use img/tete01.jpg>
-Package pdftex.def Info: img/tete01.jpg used on input line 75.
+Package pdftex.def Info: img/tete01.jpg used on input line 76.
 (pdftex.def)             Requested size: 284.52756pt x 213.38213pt.
 
-<img/heater_sch.jpg, id=175, 513.92pt x 651.43375pt>
+<img/heater_sch.jpg, id=200, 513.92pt x 651.43375pt>
 File: img/heater_sch.jpg Graphic file (type jpg)
  <use img/heater_sch.jpg>
-Package pdftex.def Info: img/heater_sch.jpg used on input line 81.
+Package pdftex.def Info: img/heater_sch.jpg used on input line 82.
 (pdftex.def)             Requested size: 142.26378pt x 180.33266pt.
 
-<img/chauffe01.jpg, id=178, 803.0pt x 602.25pt>
+<img/chauffe01.jpg, id=203, 803.0pt x 602.25pt>
 File: img/chauffe01.jpg Graphic file (type jpg)
  <use img/chauffe01.jpg>
-Package pdftex.def Info: img/chauffe01.jpg used on input line 89.
+Package pdftex.def Info: img/chauffe01.jpg used on input line 90.
 (pdftex.def)             Requested size: 284.52756pt x 213.4005pt.
 
-<img/cooler_sch.jpg, id=181, 392.46625pt x 505.89pt>
+<img/cooler_sch.jpg, id=206, 392.46625pt x 505.89pt>
 File: img/cooler_sch.jpg Graphic file (type jpg)
  <use img/cooler_sch.jpg>
-Package pdftex.def Info: img/cooler_sch.jpg used on input line 95.
+Package pdftex.def Info: img/cooler_sch.jpg used on input line 96.
 (pdftex.def)             Requested size: 142.26378pt x 183.3785pt.
 
-<img/radiateur01.jpg, id=184, 602.25pt x 803.0pt>
+<img/radiateur01.jpg, id=209, 602.25pt x 803.0pt>
 File: img/radiateur01.jpg Graphic file (type jpg)
  <use img/radiateur01.jpg>
-Package pdftex.def Info: img/radiateur01.jpg used on input line 102.
+Package pdftex.def Info: img/radiateur01.jpg used on input line 103.
 (pdftex.def)             Requested size: 170.71487pt x 227.62204pt.
-
-<img/core_sch.jpg, id=187, 243.91125pt x 475.7775pt>
-File: img/core_sch.jpg Graphic file (type jpg)
- <use img/core_sch.jpg>
-Package pdftex.def Info: img/core_sch.jpg used on input line 108.
-(pdftex.def)             Requested size: 56.9055pt x 110.99463pt.
 
 [6 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/head_sch.jpg>]
 [7 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/tete01.jpg> <C:/Users
 /Cyrille/Documents/GitHub/printer/doc/src/img/heater_sch.jpg>] [8 <C:/Users/Cyr
 ille/Documents/GitHub/printer/doc/src/img/chauffe01.jpg> <C:/Users/Cyrille/Docu
 ments/GitHub/printer/doc/src/img/cooler_sch.jpg>]
-<img/buse.jpg, id=211, 322.20375pt x 213.79875pt>
+<img/core_sch.jpg, id=230, 243.91125pt x 475.7775pt>
+File: img/core_sch.jpg Graphic file (type jpg)
+ <use img/core_sch.jpg>
+Package pdftex.def Info: img/core_sch.jpg used on input line 109.
+(pdftex.def)             Requested size: 56.9055pt x 110.99463pt.
+
+[9 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/radiateur01.jpg> <C:/
+Users/Cyrille/Documents/GitHub/printer/doc/src/img/core_sch.jpg>]
+<img/buse.jpg, id=241, 322.20375pt x 213.79875pt>
 File: img/buse.jpg Graphic file (type jpg)
  <use img/buse.jpg>
-Package pdftex.def Info: img/buse.jpg used on input line 124.
+Package pdftex.def Info: img/buse.jpg used on input line 125.
 (pdftex.def)             Requested size: 142.26378pt x 94.40123pt.
+
+<img/bushing-bracket.jpg, id=242, 386.19281pt x 249.93375pt>
+File: img/bushing-bracket.jpg Graphic file (type jpg)
+
+<use img/bushing-bracket.jpg>
+Package pdftex.def Info: img/bushing-bracket.jpg used on input line 134.
+(pdftex.def)             Requested size: 142.26378pt x 92.06978pt.
+
+<img/belt-blocking.jpg, id=243, 302.63063pt x 146.04562pt>
+File: img/belt-blocking.jpg Graphic file (type jpg)
+
+<use img/belt-blocking.jpg>
+Package pdftex.def Info: img/belt-blocking.jpg used on input line 142.
+(pdftex.def)             Requested size: 199.16928pt x 96.11629pt.
+ [10 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/buse.jpg> <C:/Users
+/Cyrille/Documents/GitHub/printer/doc/src/img/bushing-bracket.jpg>] <img/plate-
+assy.jpg, id=252, 752.8125pt x 283.81032pt>
+File: img/plate-assy.jpg Graphic file (type jpg)
+
+<use img/plate-assy.jpg>
+Package pdftex.def Info: img/plate-assy.jpg used on input line 150.
+(pdftex.def)             Requested size: 455.24408pt x 171.62997pt.
+
+Overfull \hbox (65.24408pt too wide) in paragraph at lines 150--151
+ [] 
+ []
+
+<img/y-motor-bracket.jpg, id=253, 636.3775pt x 395.4775pt>
+File: img/y-motor-bracket.jpg Graphic file (type jpg)
+
+<use img/y-motor-bracket.jpg>
+Package pdftex.def Info: img/y-motor-bracket.jpg used on input line 160.
+(pdftex.def)             Requested size: 227.62204pt x 141.45454pt.
 )
-(C:\Users\Cyrille\Documents\GitHub\printer\doc\src\mise_en_oeuvre.tex [9 <C:/Us
-ers/Cyrille/Documents/GitHub/printer/doc/src/img/radiateur01.jpg> <C:/Users/Cyr
-ille/Documents/GitHub/printer/doc/src/img/core_sch.jpg>]
-<img/ramps02.jpg, id=219, 803.0pt x 602.25pt>
+(C:\Users\Cyrille\Documents\GitHub\printer\doc\src\mise_en_oeuvre.tex [11 <C:/U
+sers/Cyrille/Documents/GitHub/printer/doc/src/img/belt-blocking.jpg> <C:/Users/
+Cyrille/Documents/GitHub/printer/doc/src/img/plate-assy.jpg>]
+<img/ramps02.jpg, id=262, 803.0pt x 602.25pt>
 File: img/ramps02.jpg Graphic file (type jpg)
  <use img/ramps02.jpg>
 Package pdftex.def Info: img/ramps02.jpg used on input line 13.
 (pdftex.def)             Requested size: 284.52756pt x 213.4005pt.
 
-<img/ramps03.jpg, id=222, 803.0pt x 602.25pt>
+<img/ramps03.jpg, id=265, 803.0pt x 602.25pt>
 File: img/ramps03.jpg Graphic file (type jpg)
  <use img/ramps03.jpg>
 Package pdftex.def Info: img/ramps03.jpg used on input line 26.
 (pdftex.def)             Requested size: 284.52756pt x 213.4005pt.
- [10 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/buse.jpg>] [11 <C:/
-Users/Cyrille/Documents/GitHub/printer/doc/src/img/ramps02.jpg> <C:/Users/Cyril
-le/Documents/GitHub/printer/doc/src/img/ramps03.jpg>]
-<img/regulator.jpg, id=238, 517.79329pt x 199.16267pt>
+ [12 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/y-motor-bracket.jpg
+>]
+<img/regulator.jpg, id=274, 517.79329pt x 199.16267pt>
 File: img/regulator.jpg Graphic file (type jpg)
  <use img/regulator.jpg>
 Package pdftex.def Info: img/regulator.jpg used on input line 44.
 (pdftex.def)             Requested size: 284.52756pt x 109.43951pt.
 
-<img/arduino_principle.jpg, id=239, 580.1675pt x 351.3125pt>
+<img/arduino_principle.jpg, id=275, 580.1675pt x 351.3125pt>
 File: img/arduino_principle.jpg Graphic file (type jpg)
 
 <use img/arduino_principle.jpg>
 Package pdftex.def Info: img/arduino_principle.jpg used on input line 48.
 (pdftex.def)             Requested size: 284.52756pt x 172.28935pt.
- [12 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/regulator.jpg> <C:/
-Users/Cyrille/Documents/GitHub/printer/doc/src/img/arduino_principle.jpg>] <img
-/funduino02.jpg, id=252, 803.0pt x 602.25pt>
+ [13 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/ramps02.jpg>] <img/
+funduino02.jpg, id=288, 803.0pt x 602.25pt>
 File: img/funduino02.jpg Graphic file (type jpg)
 
 <use img/funduino02.jpg>
 Package pdftex.def Info: img/funduino02.jpg used on input line 66.
 (pdftex.def)             Requested size: 284.52756pt x 213.4005pt.
- [13 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/funduino02.jpg>] <i
-mg/a4988_1.jpg, id=261, 506.89375pt x 182.6825pt>
+ [14 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/ramps03.jpg> <C:/Us
+ers/Cyrille/Documents/GitHub/printer/doc/src/img/regulator.jpg>] [15 <C:/Users/
+Cyrille/Documents/GitHub/printer/doc/src/img/arduino_principle.jpg>] <img/a4988
+_1.jpg, id=303, 506.89375pt x 182.6825pt>
 File: img/a4988_1.jpg Graphic file (type jpg)
 
 <use img/a4988_1.jpg>
 Package pdftex.def Info: img/a4988_1.jpg used on input line 92.
 (pdftex.def)             Requested size: 284.52756pt x 102.544pt.
- [14 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/a4988_1.jpg>] [15] 
-<img/montage_a4988.jpg, id=271, 803.0pt x 602.25pt>
+ [16 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/funduino02.jpg> <C:
+/Users/Cyrille/Documents/GitHub/printer/doc/src/img/a4988_1.jpg>] [17] <img/mon
+tage_a4988.jpg, id=312, 803.0pt x 602.25pt>
 File: img/montage_a4988.jpg Graphic file (type jpg)
 
 <use img/montage_a4988.jpg>
 Package pdftex.def Info: img/montage_a4988.jpg used on input line 150.
 (pdftex.def)             Requested size: 284.52756pt x 213.4005pt.
 
-<img/amperemetre.jpg, id=272, 602.25pt x 968.61874pt>
+<img/amperemetre.jpg, id=313, 602.25pt x 968.61874pt>
 File: img/amperemetre.jpg Graphic file (type jpg)
 
 <use img/amperemetre.jpg>
 Package pdftex.def Info: img/amperemetre.jpg used on input line 154.
 (pdftex.def)             Requested size: 142.26378pt x 228.80783pt.
-) [16 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/montage_a4988.jpg>
-] [17 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/amperemetre.jpg>]
+) [18 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/montage_a4988.jpg>
+] [19 <C:/Users/Cyrille/Documents/GitHub/printer/doc/src/img/amperemetre.jpg>]
 (C:\Users\Cyrille\Documents\GitHub\printer\doc\src\printer.lof)
 \tf@lof=\write5
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
- [18
+ [20
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
@@ -699,14 +735,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `printer.out' has not changed.
-(rerunfilecheck)             Checksum: 3D2617BB45C00B91511F8E6A88655888;1763.
+(rerunfilecheck)             Checksum: 906FB8B16F35A8BC4BAB16856BD69CFC;2178.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 7118 strings out of 493921
- 110941 string characters out of 3147276
- 195007 words of memory out of 3000000
- 10223 multiletter control sequences out of 15000+200000
+ 7158 strings out of 493921
+ 111716 string characters out of 3147276
+ 195210 words of memory out of 3000000
+ 10248 multiletter control sequences out of 15000+200000
  14484 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  40i,6n,40p,295b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -721,9 +757,9 @@ Users\Cyrille\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1
 440.pk> <C:\Users\Cyrille\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
 dpi600\ecrm2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feym
 r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on printer.pdf (18 pages, 7178019 bytes).
+Output written on printer.pdf (20 pages, 7309419 bytes).
 PDF statistics:
- 647 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 704 PDF objects out of 1000 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
+ 351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
